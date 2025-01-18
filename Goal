@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- FigPii Asynchronous Tracking Code -->
+<script>!function(w,d,u){var n=d.createElement('script');n.crossOrigin='anonymous',n.async='async',n.src=u,d.head.append(n),w._fpEvent=w._fpEvent||[]}(window,document,'https://tracking-cdn.figpii.com/4e13b9b9994ccee63764eb9a00116961.js');</script>
+<!-- End FigPii Asynchronous Tracking Code -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
