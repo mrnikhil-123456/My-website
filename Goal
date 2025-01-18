@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- FigPii Asynchronous Tracking Code -->
-<script>!function(w,d,u){var n=d.createElement('script');n.crossOrigin='anonymous',n.async='async',n.src=u,d.head.append(n),w._fpEvent=w._fpEvent||[]}(window,document,'https://tracking-cdn.figpii.com/4e13b9b9994ccee63764eb9a00116961.js');</script>
-<!-- End FigPii Asynchronous Tracking Code -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bookstore - Buy Your Favorite Books</title>
+    <title>Bookstore - Buy Books Online</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #333;
             color: white;
-            text-align: center;
             padding: 20px;
+            text-align: center;
         }
         nav {
-            text-align: center;
-            background-color: #333;
+            background-color: #444;
             padding: 10px;
+            text-align: center;
         }
         nav a {
             color: white;
             text-decoration: none;
-            padding: 14px 20px;
-            margin: 5px;
-            border-radius: 4px;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
         }
         nav a:hover {
-            background-color: #575757;
+            background-color: #666;
         }
         .container {
             display: flex;
@@ -45,21 +41,17 @@
         .book {
             background-color: white;
             margin: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: center;
+            width: 250px;
             padding: 15px;
-            transition: transform 0.3s ease;
         }
         .book img {
-            width: 100%;
-            border-radius: 8px;
+            width: 200px;
             height: 300px;
             object-fit: cover;
-        }
-        .book:hover {
-            transform: translateY(-10px);
+            border-radius: 8px;
         }
         .book-title {
             font-size: 18px;
@@ -67,25 +59,36 @@
             margin: 10px 0;
         }
         .book-price {
+            color: green;
             font-size: 16px;
-            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #45a049;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 15px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to Our Bookstore</h1>
-    <p>Your one-stop shop for the best books online!</p>
+    <h1>Welcome to the Online Bookstore</h1>
+    <p>Find your next favorite read!</p>
 </header>
 
 <nav>
@@ -96,34 +99,38 @@
 </nav>
 
 <div class="container">
+    <!-- Book 1 -->
     <div class="book">
-        <img src="https://via.placeholder.com/250x300" alt="Book 1">
+        <img src="https://via.placeholder.com/200x300" alt="Book 1">
         <div class="book-title">The Great Adventure</div>
         <div class="book-price">$15.99</div>
         <button>Add to Cart</button>
     </div>
+    <!-- Book 2 -->
     <div class="book">
-        <img src="https://via.placeholder.com/250x300" alt="Book 2">
-        <div class="book-title">Learning JavaScript</div>
+        <img src="https://via.placeholder.com/200x300" alt="Book 2">
+        <div class="book-title">Learn JavaScript</div>
         <div class="book-price">$19.99</div>
         <button>Add to Cart</button>
     </div>
+    <!-- Book 3 -->
     <div class="book">
-        <img src="https://via.placeholder.com/250x300" alt="Book 3">
+        <img src="https://via.placeholder.com/200x300" alt="Book 3">
         <div class="book-title">Cooking Made Easy</div>
         <div class="book-price">$12.49</div>
         <button>Add to Cart</button>
     </div>
+    <!-- Book 4 -->
     <div class="book">
-        <img src="https://via.placeholder.com/250x300" alt="Book 4">
-        <div class="book-title">The Mystery of the Lost Treasure</div>
+        <img src="https://via.placeholder.com/200x300" alt="Book 4">
+        <div class="book-title">The Mystery Novel</div>
         <div class="book-price">$22.99</div>
         <button>Add to Cart</button>
     </div>
 </div>
 
 <footer>
-    &copy; 2025 Bookstore Inc. | All Rights Reserved
+    &copy; 2025 Online Bookstore | All Rights Reserved
 </footer>
 
 </body>
