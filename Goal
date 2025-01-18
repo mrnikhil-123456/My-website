@@ -1,47 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- FigPii Asynchronous Tracking Code -->
-<script>!function(w,d,u){var n=d.createElement('script');n.crossOrigin='anonymous',n.async='async',n.src=u,d.head.append(n),w._fpEvent=w._fpEvent||[]}(window,document,'https://tracking-cdn.figpii.com/4e13b9b9994ccee63764eb9a00116961.js');</script>
-<!-- End FigPii Asynchronous Tracking Code -->
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookstore - Buy Your Favorite Books</title>
+    <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
         }
         header {
             background-color: #4CAF50;
-            padding: 10px;
             color: white;
-            font-size: 24px;
+            text-align: center;
+            padding: 20px;
         }
-        main {
-            padding: 50px;
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .book {
+            background-color: white;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        .book img {
+            width: 100%;
+            border-radius: 8px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .book:hover {
+            transform: translateY(-10px);
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .book-price {
+            font-size: 16px;
+            color: #4CAF50;
         }
         footer {
-            background-color: #4CAF50;
+            background-color: #333;
             color: white;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
             text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        Welcome to My GitHub Page!
-    </header>
-    <main>
-        <h1>Hello, world!</h1>
-        <p>This is a basic GitHub Pages site using HTML.</p>
-        <p>Feel free to edit the content of this page!</p>
-    </main>
-    <footer>
-        © 2025 My GitHub Page
-    </footer>
+
+<header>
+    <h1>Welcome to Our Bookstore</h1>
+    <p>Your one-stop shop for the best books online!</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Genres</a>
+    <a href="#">Contact</a>
+    <a href="#">About Us</a>
+</nav>
+
+<div class="container">
+    <div class="book">
+        <img src="https://via.placeholder.com/250x300" alt="Book 1">
+        <div class="book-title">The Great Adventure</div>
+        <div class="book-price">$15.99</div>
+        <button>Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="https://via.placeholder.com/250x300" alt="Book 2">
+        <div class="book-title">Learning JavaScript</div>
+        <div class="book-price">$19.99</div>
+        <button>Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="https://via.placeholder.com/250x300" alt="Book 3">
+        <div class="book-title">Cooking Made Easy</div>
+        <div class="book-price">$12.49</div>
+        <button>Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="https://via.placeholder.com/250x300" alt="Book 4">
+        <div class="book-title">The Mystery of the Lost Treasure</div>
+        <div class="book-price">$22.99</div>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Bookstore Inc. | All Rights Reserved
+</footer>
+
 </body>
 </html>
